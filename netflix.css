@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url('netflixa.jpg');
+    background-position: right;
+
+}
+
+/* .netfor{
+    color:red;
+    font-size:55px;
+    font-family: sans-serif;
+    letter-spacing: -10px;
+    font-weight: 510;
+   
+}
+ */
+.sign-but{
+    background: red;
+    width:70px;
+    height:30px;
+    font-size: 14px;
+    color:white;
+    border:red;
+    border-radius: 10%;
+    
+}
+span{
+    display: inline-block;
+}
+
+.cent{
+    text-align:center;
+}
+
+
+h1{
+    font-size: 60px;
+    color:rgb(247, 243, 243);
+}
+
+h2{
+    color:white;
+    font-weight: 200;
+
+}
+
+h3{
+    color:white;
+    
+    font-weight: 200;
+    
+
+    }
+
+    input{
+        height:52px;
+        width:400px;
+        background:transparent;
+        color:white;
+        font-size: 16px;
+        border-color:rgb(226, 228, 215);
+        border-radius: 4%;
+    }
+
+    .getstart{
+        width:200px;
+        height:55px;
+        background:red;
+        font-size: 22px;
+        font-weight: 600;
+        color:white;
+        border-radius:6% ;
+    }
+    p{
+        color:red;
+        font-size: 44px;
+        font-weight: 600;
+        margin:1%;
+    letter-spacing: -4px;
+
+    }
+    @media screen and (max-width: 450px) {
+ h1   {
+     font-size:35px;
+    text-align: center;
+   
+    }
+ .sign-but{
+    position:absolute;
+    right:3rem;
+
+ }
+h2{
+    font-size:30px;
+}
+
+.cent{
+    margin:0;
+    padding: 3rem;
+}
+h3{
+    font-size:20px;
+}
+input{
+    width:250px;
+}
+.getstart{
+    width:140px;
+    height:40px;
+    font-size:18px;
+    margin:1rem
+}}
