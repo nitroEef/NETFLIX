@@ -50,28 +50,40 @@ body{
 }
 main{
     text-align: center;
-    margin:11rem
+    margin:8rem;
+    line-height: 1rem;
 }
 
 h1{
-    font-size: 60px;
+    width:1211px;
     color:rgb(247, 243, 243);
+    font-size: 74px;
 }
 
 h2{
     color:white;
     font-weight: 200;
+    width:472px;
+    font-size: 34px;
 
 }
 
 h3{
     color:white;
+    width:715px;
+    font-size: 24px;
     
     font-weight: 200;
     font-family: 'Gill Sans', 'Gill Sans MT';
 
     }
 
+    nav{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     input{
         height:52px;
         width:400px;
@@ -93,98 +105,7 @@ h3{
     }
 
     @media screen and (max-width: 980px) {
-        .getstart{
-          background-color: red;
-          margin:2rem;
-        }
-
         h1{
-            font-size: 34px;
-        }
-    }
-    @media screen and (max-width: 740px) {
-        input{
-            text-align: center;
-            width:270px;
-        }
-
-        .getstart{
-            width:130px;
-            font-size: 17px;
-        }
-    }
- 
-    @media screen and (max-width: 599px) {
-        input{
-            text-align: center;
-            width:210px;
-        }
-
-        .getstart{
-            width:130px;
-            font-size: 17px;
-        }
-
-        h1{
-            font-size: 32px;
-        }
-    }
-
-    @media screen and (max-width:485px) {
-        input{
-            text-align: center;
-            width:170px;
-            margin-left: 1rem;
-        }
-
-        .getstart{
-            width:130px;
-            font-size: 17px;
-            position:relative;
-    text-align: center;        }
-.sign-but{
-    display:none;
-}
-input{
-    text-align: center;
-    width:260px;
-}  
-    }
-
-
-    @media screen and (max-width: 450px) {
- h1   {
-     font-size:35px;
-    text-align: center;
-   
-    }
- .sign-but{
-    position:absolute;
-    right:3rem;
-
- }
-h2{
-    font-size:30px;
-}
-
-.cent{
-    margin:0;
-    padding: 3rem;
-}
-h3{
-    font-size:20px;
-}
-input{
-    width:250px;
-}
-.getstart{
-    width:140px;
-    height:40px;
-    font-size:18px;
-    margin:1rem
-}
-
-
-}
-
-
+            font-size: 55px;}
+          
+       
