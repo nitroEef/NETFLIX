@@ -12,32 +12,46 @@ body{
     font-family: sans-serif;
     letter-spacing: -10px;
     font-weight: 510;
-   
-}
- */
+   } */
+
+
 
  header{
     display: flex;
-    justify-content:space-around;
+    margin-top:1rem;
+    justify-content:space-between;
+    padding-left:4rem;
+    padding-right: 4rem;
  }
+
+ p{
+    color:red;
+    font-size: 64px;
+    font-weight: 600;
+    margin: 0%;
+
+}
 .sign-but{
     background: red;
-    width:70px;
-    height:30px;
-    font-size: 14px;
+    width:80px;
+    height:40px;
+    font-size: 17px;
     color:white;
     border:red;
     border-radius: 10%;
+  
     
 }
-span{
-    display: inline-block;
+::placeholder{
+    color:white;
+    text-align: center;
+    opacity:53%;
+    font-size: 17px;
 }
-
-.cent{
-    text-align:center;
+main{
+    text-align: center;
+    margin:11rem
 }
-
 
 h1{
     font-size: 60px;
@@ -54,7 +68,7 @@ h3{
     color:white;
     
     font-weight: 200;
-    
+    font-family: 'Gill Sans', 'Gill Sans MT';
 
     }
 
@@ -77,14 +91,46 @@ h3{
         color:white;
         border-radius:6% ;
     }
-    p{
-        color:red;
-        font-size: 44px;
-        font-weight: 600;
-        margin:1%;
-    letter-spacing: -4px;
 
+    @media screen and (max-width: 980px) {
+        .getstart{
+          background-color: red;
+          margin:2rem;
+        }
+
+        h1{
+            font-size: 34px;
+        }
     }
+    @media screen and (max-width: 740px) {
+        input{
+            text-align: center;
+            width:270px;
+        }
+
+        .getstart{
+            width:130px;
+            font-size: 17px;
+        }
+    }
+ 
+    @media screen and (max-width: 599px) {
+        input{
+            text-align: center;
+            width:230px;
+        }
+
+        .getstart{
+            width:100px;
+            font-size: 17px;
+        }
+
+        h1{
+            font-size: 35px;
+        }
+    }
+
+
     @media screen and (max-width: 450px) {
  h1   {
      font-size:35px;
@@ -115,4 +161,9 @@ input{
     height:40px;
     font-size:18px;
     margin:1rem
-}}
+}
+
+
+}
+
+
