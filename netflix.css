@@ -15,6 +15,11 @@ body{
    
 }
  */
+
+ header{
+    display: flex;
+    justify-content:space-around;
+ }
 .sign-but{
     background: red;
     width:70px;
