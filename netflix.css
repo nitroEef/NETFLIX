@@ -117,17 +117,38 @@ h3{
     @media screen and (max-width: 599px) {
         input{
             text-align: center;
-            width:230px;
+            width:210px;
         }
 
         .getstart{
-            width:100px;
+            width:130px;
             font-size: 17px;
         }
 
         h1{
-            font-size: 35px;
+            font-size: 32px;
         }
+    }
+
+    @media screen and (max-width:485px) {
+        input{
+            text-align: center;
+            width:170px;
+            margin-left: 1rem;
+        }
+
+        .getstart{
+            width:130px;
+            font-size: 17px;
+            position:relative;
+    text-align: center;        }
+.sign-but{
+    display:none;
+}
+input{
+    text-align: center;
+    width:260px;
+}  
     }
 
 
