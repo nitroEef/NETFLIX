@@ -35,6 +35,7 @@ body{
     background: red;
     width:80px;
     height:40px;
+    margin-top: 1rem;
     font-size: 17px;
     color:white;
     border:red;
@@ -51,11 +52,9 @@ body{
 main{
     text-align: center;
     margin:8rem;
-    line-height: 1rem;
 }
 
 h1{
-    width:1211px;
     color:rgb(247, 243, 243);
     font-size: 74px;
 }
@@ -63,14 +62,12 @@ h1{
 h2{
     color:white;
     font-weight: 200;
-    width:472px;
     font-size: 34px;
 
 }
 
 h3{
     color:white;
-    width:715px;
     font-size: 24px;
     
     font-weight: 200;
@@ -104,8 +101,43 @@ h3{
         border-radius:6% ;
     }
 
-    @media screen and (max-width: 980px) {
+    @media screen and (max-width: 450px) {
+        p{
+            font-size: 35px;
+        }
         h1{
-            font-size: 55px;}
+           font-size: 35px;
+        width:377px}
+
+      
+         h2{
+            font-size: 25px;
+            width:377px
+         } 
+         h3{
+            font-size: 22px;
+            width:377px
+         } 
+         .sign-but{
+            width:80px;
+            height:30px;
+            margin-top:-0.052233rem;
+            font-size: 17px;
           
-       
+            
+        }
+        .getstart{
+            width:120px;
+            height:35px;
+            background:red;
+            font-size: 14px;
+            margin: 2rem 0;
+            
+        }
+        input{
+            height:32px;
+            width:250px;
+            position:relative;
+            right:3rem
+        }
+    }
